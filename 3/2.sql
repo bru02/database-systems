@@ -1,4 +1,4 @@
-select T.Name, A.Title, Milliseconds / 60000, isnull(G.Name, 'Unknown') from Track T
+select T.Name, A.Title, Milliseconds / 60000, P.Name, isnull(G.Name, 'Unknown') from Track T
 left join dbo.Album A on A.AlbumId = T.AlbumId
 join dbo.PlaylistTrack PT on T.TrackId = PT.TrackId
 join dbo.Playlist P on PT.PlaylistId = P.PlaylistId
