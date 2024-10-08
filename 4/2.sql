@@ -4,9 +4,5 @@ from Customer
          join dbo.InvoiceLine IL on I.InvoiceId = IL.InvoiceId
 where Company is null
   and year(InvoiceDate) = 2012
-group by Customer.CustomerId, City, PostalCode
-having exists(
-    select count(distinct L.TrackId) from Invoice
-             join dbo.InvoiceLine L on Invoice.InvoiceId = L.InvoiceId
-             where BillingCity = City
-)
+group by City, PostalCode
+having count(TrackId) > 1
