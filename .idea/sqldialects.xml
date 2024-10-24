@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/4/1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/4/2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/4/3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/4/4.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/5/1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/5/3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/6/2.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;9974bfdf-0a8d-4fec-9b9b-c50c00092d96&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;database&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;Chinook&quot;      }     }    }   }  } }}" />
+  </component>
+</project>

@@ -1,0 +1,1 @@
+select *, avg(Total) over (order by InvoiceDate rows between 2 preceding and 2 following) from Invoice

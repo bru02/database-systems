@@ -1,0 +1,1 @@
+select *, ntile(10) over(order by Milliseconds / 60000), Milliseconds / 60000 from Track

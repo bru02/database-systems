@@ -1,7 +1,6 @@
 select FirstName + ' ' + LastName + ', ' + Address,
        year(getdate()) - year(BirthDate),
        count(*) over ( partition by month(BirthDate)) - 1,
-       datediff(month, HireDate, getdate()),
        case
            when Email not like '%@chinook%' then 'external'
            when datediff(month, HireDate, getdate()) <= 6 then 'probationary'
