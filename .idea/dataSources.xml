@@ -9,5 +9,12 @@
       <jdbc-url>jdbc:sqlserver://bit.uni-corvinus.hu;database=Chinook;user=Student;password=Password123</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="name@database-systems.database.windows.net" uuid="4eafe811-0796-47c9-8319-76211d9085b9">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://database-systems.database.windows.net:1433;database=name</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/10/1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/10/2.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/10/3.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/10/ex1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/10/ex2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/10/ex3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/10/viola.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/11/normalize.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/4/1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4/2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4/3.sql" dialect="TSQL" />
@@ -12,12 +20,19 @@
     <file url="file://$PROJECT_DIR$/8/1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/8/5.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex3.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex4.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex5.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/ex6.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/9/1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/9/2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/9/3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/9/movies.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/9/review.sql" dialect="TSQL" />
+    <file url="file://$USER_HOME$/Downloads/Chinook_original.sql" dialect="AZURE" />
     <file url="PROJECT" dialect="TSQL" />
   </component>
   <component name="SqlResolveMappings">
