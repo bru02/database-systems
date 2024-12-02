@@ -8,6 +8,9 @@
     <file url="file://$PROJECT_DIR$/10/ex2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/10/ex3.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/10/viola.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/11/1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/11/2.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/11/3.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/11/normalize.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/4/1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4/2.sql" dialect="TSQL" />

@@ -60,3 +60,10 @@ Select distinct m.imdbid, m.genres, g.genrename
 from movie m join moviegenre mg on m.imdbid=mg.imdbid join #genres g on mg.genreid=g.genreid
 order by m.imdbid
 
+Alter table MovieGenres add constraint PK_Genre Primary Key(Genreid);
+Alter table Movie add constraint PK_MSDFSD_Genre Primary Key(ImdbId);
+Alter table MovieGenre Add Constraint FK_MovieGenre_movie Foreign key(ImdbId) references Movie(Imdbid);
+Alter table MovieGenre Add Constraint FK_MovieGenre_Genre Foreign key(GenreId) references MovieGenres(GenreId);
+Alter table MovieGenre Add Constraint PK_MovieGenre_Genre Primary key(ImdbId, GenreId);
+
+
