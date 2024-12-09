@@ -11,4 +11,5 @@ SET Movie.AgeCertId = Ac.AgeCertId
 FROM Movie
 JOIN dbo.AgeCerts Ac ON Movie.age_certification = Ac.age_certification;
 
-alter table Movie drop column age_certification
+alter table Movie drop column age_certification;
+

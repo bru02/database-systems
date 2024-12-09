@@ -16,5 +16,12 @@
       <jdbc-url>jdbc:sqlserver://database-systems.database.windows.net:1433;database=name</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="aaa@database-systems.database.windows.net" uuid="b0856ee7-67f0-424b-9377-a904c732376c">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://database-systems.database.windows.net:1433;database=aaa</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

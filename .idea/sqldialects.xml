@@ -12,6 +12,13 @@
     <file url="file://$PROJECT_DIR$/11/2.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/11/3.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/11/normalize.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/12/1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/12/2.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/12/3.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/12/crew.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/12/intended.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/13/1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/13/2.sql" dialect="AZURE" />
     <file url="file://$PROJECT_DIR$/4/1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4/2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4/3.sql" dialect="TSQL" />
@@ -20,6 +27,7 @@
     <file url="file://$PROJECT_DIR$/5/3.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/6/2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/7/1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/7/example.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/1.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/2.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/8/3.sql" dialect="TSQL" />
