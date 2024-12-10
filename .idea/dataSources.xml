@@ -23,5 +23,20 @@
       <jdbc-url>jdbc:sqlserver://database-systems.database.windows.net:1433;database=aaa</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="D1" uuid="a21b0297-dc37-4dd3-b748-e3c961c05dcd">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.isaacmcfadyen.D1Driver</jdbc-driver>
+      <jdbc-url>jdbc:d1://7df2590b-8fef-477e-a67f-0b75204301e7</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Database_Systems_Final_Exam_2024@bit.uni-corvinus.hu" uuid="8b215d43-38b8-42ad-b689-8cb4f09a63e1">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://bit.uni-corvinus.hu;database=Database_Systems_Final_Exam_2024</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
